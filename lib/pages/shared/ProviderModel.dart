@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 
 class ProviderModel extends ChangeNotifier {
-  String firstName = "FirstNameDebug";
-  String lastName = "LastNameDebug";
+  String Name = "NameDebug";
+  String ProfilePicture = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png";
 
-  void setFirstName(String newFirstName) {
-    firstName = newFirstName;
+  void setName(String newName) {
+    Name = newName;
     notifyListeners();
   }
-  void setLastName(String newLastName) {
-    lastName = newLastName;
+  void setProfilePicture(String newProfilePicture) {
+    ProfilePicture = newProfilePicture;
     notifyListeners();
   }
 }

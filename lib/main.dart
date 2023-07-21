@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         title: 'Cooky',
         theme: ThemeData(
           primaryColor: Colors.orange,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrangeAccent),
           scaffoldBackgroundColor: Colors.white,
           useMaterial3: true,
         ),
